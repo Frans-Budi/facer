@@ -1,0 +1,38 @@
+.progress-circle {
+    width: 40px;
+    height: 40px;
+    color: white;
+    background-color: #afb3b7;
+}
+.progress-circle-finish {
+    color: #132e35;
+    background-color: #c1bbeb;
+}
+.horizontal-line {
+    height: 6px;
+    background-color: #afb3b7;
+    margin: 0;
+}
+.horizontal-line-finish {
+    background-color: #c1bbeb;
+}
+
+.btn-payment-method {
+    background-color: white;
+    color: #303972;
+    font-weight: 500;
+    border-radius: 12px;
+    text-align: left;
+    padding: 0.8rem 2rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+.btn-check:checked + .btn-payment-method {
+    background-color: rgba(15, 168, 88, 0.08);
+    color: #0fa958;
+    border: 2px solid #0fa958;
+}
+.btn-payment-method:hover {
+    margin-left: 1rem;
+}

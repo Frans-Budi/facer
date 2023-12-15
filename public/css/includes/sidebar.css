@@ -1,0 +1,11 @@
+.bg-sidebar {
+    background-color: #bbbee0;
+}
+
+.nav-link.active {
+    background-color: #f3f4ff !important;
+}
+
+.nav-link:hover {
+    background-color: rgba(253, 244, 255, 0.6);
+}

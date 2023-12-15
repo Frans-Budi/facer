@@ -1,0 +1,18 @@
+.user-select-none {
+    user-select: none;
+}
+
+.bg-sticky-purple {
+    background: linear-gradient(to right, #4d44b5 5.5%, #fff 5.5%);
+}
+.bg-sticky-orange {
+    background: linear-gradient(to right, #fb7d5b 5.5%, #fff 5.5%);
+}
+.bg-sticky-yellow {
+    background: linear-gradient(to right, #fcc43e 5.5%, #fff 5.5%);
+}
+
+.sc-select {
+    border: 2px solid #4d44b5;
+    color: #4d44b5;
+}

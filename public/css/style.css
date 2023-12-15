@@ -1,0 +1,97 @@
+@import url("includes/sidebar.css");
+@import url("includes/navbar.css");
+@import url("pages/home.css");
+@import url("pages/borrowing.css");
+@import url("pages/profile.css");
+@import url("pages/schedule.css");
+@import url("pages/payment.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+    background-color: #f3f4ff;
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+}
+
+/* Font Style */
+.fs-12px {
+    font-size: 12px;
+}
+.fs-14px {
+    font-size: 14px;
+}
+.fs-lg-ttl {
+    font-size: 3.5rem;
+}
+
+/* Color Style */
+.bg-primary-color {
+    background-color: #bbbee0;
+}
+.bg-dark-blue {
+    background-color: #303972;
+}
+.text-color {
+    color: #132e35;
+}
+.ttl-color {
+    color: #303972;
+}
+.light-color {
+    color: #a098ae;
+}
+.gray-color {
+    color: #afb3b7;
+}
+.red-color {
+    color: #f26500;
+}
+.green-color {
+    color: #0fa958;
+}
+
+/* Button Style */
+.btn.btn-primary {
+    background-color: #303972;
+    color: white;
+    border: 0;
+    padding: 0.6em 1.2em;
+}
+.btn.btn-primary:hover {
+    opacity: 0.85;
+}
+.btn.btn-outline-primary {
+    color: #303972;
+    border: 1px solid #303972;
+    padding: 0.6em 1.2em;
+}
+.btn.btn-outline-primary:hover {
+    background-color: rgba(48, 57, 114, 0.1);
+}
+
+/* Rounded */
+.rounded-12 {
+    border-radius: 12px;
+}
+.rounded-20 {
+    border-radius: 20px;
+}
+
+/* Width */
+.w-fit-content {
+    width: fit-content;
+}
+.fit-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Adjust based on your needs, e.g., 'contain', 'fill', etc. */
+}
+
+/* border */
+.border-black {
+    border-color: #132e35;
+}
+.border-2px {
+    border-width: 2px;
+}

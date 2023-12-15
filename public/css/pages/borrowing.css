@@ -1,0 +1,76 @@
+.mt-6rem {
+    margin-top: 6rem;
+}
+
+.mt-3rem {
+    margin-top: 3rem;
+}
+
+.bor-pem .row {
+    padding: 0 8rem;
+}
+
+.bor-img {
+    position: relative;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+.bor-img:hover {
+    transform: translateY(-10px);
+}
+
+.bor-pem img {
+    position: relative;
+    width: 400px;
+    height: 260px;
+    z-index: 1;
+    border-radius: 20px;
+}
+.bor-pem .overlay {
+    position: absolute;
+    width: 400px;
+    height: 260px;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+.bor-pem h5 {
+    position: absolute;
+    top: 2.5rem;
+    left: 3.5rem;
+    color: white;
+    z-index: 3;
+    font-weight: bold;
+}
+.bor-pem a {
+    position: absolute;
+    color: white;
+    z-index: 3;
+    bottom: 1.5rem;
+    right: 3.5rem;
+    font-size: 14px;
+    text-decoration: none;
+}
+.bor-pem a:hover {
+    text-decoration: underline;
+}
+
+.formulir input::placeholder {
+    font-weight: 500;
+}
+
+.formulir input[type="text"] {
+    background-color: rgba(255, 255, 255, 0);
+}
+.formulir input[type="checkbox"]:checked {
+    background-color: #303972;
+    color: white;
+}
+.formulir input[type="text"]:focus {
+    background-color: rgba(255, 255, 255, 0);
+}
+.formulir input:disabled {
+    background-color: rgba(255, 255, 255, 0);
+    color: #a098ae;
+    font-weight: 500;
+}

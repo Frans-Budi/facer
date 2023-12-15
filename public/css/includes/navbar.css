@@ -1,0 +1,22 @@
+input[type="search"] {
+    border: 0;
+    padding: 10px 10px 10px 40px;
+    background: white url("/assets/icons/ic-search.png") no-repeat 15px center;
+    background-size: 20px;
+    border-radius: 25px;
+}
+input[type="search"]::placeholder {
+    color: #a098ae;
+}
+input[type="email"]::placeholder,
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+    color: #a4a4a4;
+}
+
+.ic-button {
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    border-radius: 25px;
+}

@@ -1,0 +1,28 @@
+.profile-img {
+    width: fit-content;
+    border: 6px solid white;
+}
+.profile-border {
+    border: 6px solid white;
+}
+
+.profile-card {
+    background: linear-gradient(to bottom, #4d44b5 30%, #fff 30%);
+}
+
+.table-group-divider {
+    border-color: #afb3b7;
+}
+
+.orhis-table td,
+.orhis-table th {
+    padding: 1rem 1rem;
+}
+
+.orhis-table th {
+    font-weight: 600;
+    color: #303972;
+}
+.orhis-table td {
+    color: #a098ae;
+}
